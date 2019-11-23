@@ -4,7 +4,7 @@ backend:
 
  media_folder: "images"
  
-collections:
+ collections:
   - name: "website-settings"
     label: "Website settings"
     files:
