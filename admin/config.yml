@@ -1,6 +1,6 @@
 backend:
  name: github
- repo: mikhail-cct/urban-jekyll-template # Path to your GitHub repository
+ repo: clementlgn/urban-jekyll-template # Path to your GitHub repository
 
 media_folder: "images"
 
