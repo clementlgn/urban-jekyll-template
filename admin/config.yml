@@ -2,19 +2,19 @@ backend:
  name: github
  repo: clementlgn/urban-jekyll-template
 
- media_folder: "images"
+media_folder: "images"
  
- collections:
-  - name: "website-settings"
-    label: "Website settings"
-    files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "_data/navigation.yml"
-        fields:
-          - label: "Link"
-            name: "links"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Link", name: "link", widget: "string"}
+collections:
+- name: "website-settings"
+  label: "Website settings"
+  files:
+    - label: "Navigation"
+      name: "navigation"
+      file: "_data/navigation.yml"
+      fields:
+        - label: "Link"
+          name: "links"
+          widget: "list"
+          fields:
+            - {label: "Name", name: "name", widget: "string"}
+            - {label: "Link", name: "link", widget: "string"}
